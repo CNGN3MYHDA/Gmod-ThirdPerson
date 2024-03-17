@@ -1,7 +1,7 @@
 [Русский](README-RU.md)
 
 # Information
-Third person addon for the game Garry's Mod.<br>
+An addon that adds simple use of a third-person view for the game Garry's Mod.<br>
 [Steam Workshop Page](https://steamcommunity.com/sharedfiles/filedetails/?id=3163255390)
 
 # Instructions
