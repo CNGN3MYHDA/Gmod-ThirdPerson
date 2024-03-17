@@ -1,0 +1,10 @@
+hook.Add("AddToolMenuCategories", "BThirdPerson", function()
+	spawnmenu.AddToolCategory("Options", "#b_third_person.third_person", "#b_third_person.third_person")
+end)
+
+hook.Add( "PopulateToolMenu", "BThirdPersonSettings", function()
+	spawnmenu.AddToolMenuOption("Options", "#b_third_person.third_person", "BThirdPersonMenu", "#b_third_person.settings", "", "", function(panel)
+		panel:ClearControls()
+		panel:KeyBinder("#b_third_person.key_to_activate", "BThirdPerson_Key")
+	end)
+end )
